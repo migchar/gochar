@@ -27,18 +27,6 @@ Here are some screen shots.
 
 Most features are optional and can be individually enabled/disabled in your `config/config.toml`.
 
-## Table of Contents
-
-* [Quick Start](#quick-start)
-* [Usage](#usage)
-  * [Configuration](#configuration)
-  * [Carousel Picture](#carousel-picture)
-  * [Post Intro Picture](#post-intro-picture)
-  * [Post Summary](#post-summary)
-  * [Series Intro Picture](#series-intro-picture)
-* [License](#license)
-* [Thanks](#thanks)
-
 ## Quick Start
 
 From the root of your Hugo site, clone the theme into `themes/gochar` by running:
