@@ -4,8 +4,15 @@ Hugo theme - gochar.
 
 Here are some screen shots.
 
+![screenshot-1](https://github.com/migchar/gochar/blob/master/images/screenshot-1.png?raw=true)
 
+![screenshot-2](https://github.com/migchar/gochar/blob/master/images/screenshot-2.png?raw=true)
 
+![screenshot-3](https://github.com/migchar/gochar/blob/master/images/screenshot-3.png?raw=true)
+
+![screenshot-4](https://github.com/migchar/gochar/blob/master/images/screenshot-4.png?raw=true)
+
+![screenshot-5](https://github.com/migchar/gochar/blob/master/images/screenshot-5.png?raw=true)
 
 ## Features
 
