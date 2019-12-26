@@ -1,0 +1,34 @@
+{{ $url := .URL }}
+{{ $type := .Type }}
+<!-- navigation mainbar-->
+<section id="appbar">
+    <div id="fixedbar" class="no">
+        <div class="row bar-main mx-auto">
+            <div class="master-info-small col-md-3">
+                <div class="titletip ml-4">
+                    <div class="middle info">
+                        <h4 class="blogname mb-0">{{ .Site.Title }}</h4>
+                    </div>
+                </div>
+
+            </div>
+            <nav class="nav pl-lg-4" role="navigation" itemscope=""
+                 itemtype="http://schema.org/SiteNavigationElement">
+                <ul id="menu-inspire-1" class="nav-menu main-menu pl-0">
+                    <li id="menu-item-000"
+                        class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home
+                            {{ if eq $url "/" }} current-menu-item {{ end }}">
+                    <a href="{{ .Site.BaseURL }}">首页</a>
+                    </li>
+                    {{ range .Site.Menus.main }}
+                    <li id="menu-item-{{ .Weight }}"
+                        class="menu-item menu-item-type-taxonomy menu-item-object-category">
+                        <a href="{{ .URL | absURL }}">{{ .Name }}</a>
+                    </li>
+                    {{ end }}
+                </ul>
+            </nav>
+        </div>
+    </div>
+</section>
+<!-- /navigation mainbar-->

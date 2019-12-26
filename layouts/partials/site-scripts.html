@@ -1,0 +1,54 @@
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+
+
+<!-- icon font = -->
+<script type="text/javascript" src="{{ "js/iconfont.js" | absURL }}"></script>
+
+<!-- jquery -->
+<script type="text/javascript" src="{{ "js/vendors/jquery/jquery-3.4.1.min.js" | absURL }}"></script>
+<script type="text/javascript" src="{{ "js/vendors/jquery/jquery.smooth-scroll.min.js" | absURL }}"></script>
+<script type="text/javascript" src="{{ "js/vendors/fancybox3/jquery.fancybox.min.js" | absURL }}"></script>
+<!-- /.jquery -->
+
+
+<script type="text/javascript" src="{{ "js/vendors/popper.min.js" | absURL }}"></script>
+<script type="text/javascript" src="{{ "js/vendors/holder.min.js" | absURL }}"></script>
+<script type="text/javascript" src="{{ "js/vendors-extensions/bootstrap4/bootstrap.js" | absURL }}" ></script>
+
+<script type="text/javascript" src="{{ "js/vendors/mdb/mdb.min.js" | absURL }}"></script>
+<script type="text/javascript" src="{{ "js/vendors/headroom/headroom.min.js" | absURL }}"></script>
+
+<script type="text/javascript" src="{{ "js/project.js" | absURL }}"></script>
+<script type="text/javascript" src="{{ "js/magic.js" | absURL }}"></script>
+<script type="text/javascript" src="{{ "js/app.js" | absURL }}"></script>
+<script defer src="https://cdn.bootcss.com/prism/1.17.1/components/prism-core.min.js"></script>
+<script defer src="https://cdn.bootcss.com/prism/1.17.1/plugins/line-numbers/prism-line-numbers.min.js"></script>
+<script defer src="https://cdn.bootcss.com/prism/1.17.1/plugins/autoloader/prism-autoloader.min.js"
+        onload="Prism.plugins.autoloader.languages_path='https://cdn.bootcss.com/prism/1.17.1/components/'"></script>
+
+<!-- KaTeX -->
+{{ if .Site.Params.katex }}
+  <script src="{{ "js/vendors/katex/katex.min.js" | absURL }}"> </script>
+  <script src="{{ "js/vendors/katex/contrib/auto-render.min.js" | absURL }}"></script>
+
+  <script>
+      document.addEventListener("DOMContentLoaded", function () {
+          renderMathInElement(document.body);
+      });
+  </script>
+{{ end }}
+<!-- /.KaTeX -->
+
+<!-- Google Analytics -->
+{{ template "_internal/google_analytics_async.html" . }}
+
+<!-- mdb -->
+<script type="text/javascript">
+  // Animations initialization
+  new WOW().init();
+</script>
+
+
+

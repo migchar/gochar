@@ -1,0 +1,58 @@
+{{ define "header" }}
+{{ partial "bar-top.html" . }}
+<!--{{ partial "site-hero.html" . }}-->
+<!--{{ partial "bar-main.html" . }}-->
+{{ end }}
+
+{{ define "main" }}
+<!-- Main layout -->
+<div id="container" class="site-refresh">
+    {{ partial "bar-main.html" . }}
+<main id="home-main" class="home-main-wrapper mx-auto px-1 px-lg-5">
+    <div class="row">
+        <div class="col-md-3 d-none d-md-block pl-4 pl-lg-0">
+            {{ partial "bar-left.html" . }}
+        </div>
+
+        <!-- Post list -->
+        <div id="main" class="col-12 col-md-9 col-lg-6 p-0">
+            <div class="heading">
+                <div class="inner">
+                    <span>今天没有新动态</span>
+                </div>
+            </div>
+            {{ $totalpostscount := len (.Data.Pages) }}
+            {{ $latestpostscount := .Site.Params.latestpostscount | default $totalpostscount }}
+            {{ if gt $latestpostscount 0 }}
+            <div id="primary" class="list preview">
+                {{ $paginator := .Paginate (first $latestpostscount (where (where .Site.Pages "Type" "in" (slice "paper" "paper-share" "blog" "sci-tech" "project")) "Kind" "page").ByPublishDate.Reverse ) }}
+                {{ range $paginator.Pages }}
+                {{ partial "card-post.html" . }}
+                {{ end }}
+            </div>
+
+            <!-- pagination-->
+            {{ if $paginator.HasNext }}
+            <div id="pagination" aria-label="Page navigation">
+                <div class="posts-paging">
+                    <a href="/page/{{add $paginator.PageNumber 1}}">
+                        <i class="dot"></i>
+                        <i class="dot"></i>
+                        <i class="dot"></i>
+                    </a>
+                </div>
+            </div>
+            {{ end }}
+            <!-- /pagination-->
+            {{ end }}
+        </div>
+        <!-- /.Post list -->
+        {{ partial "bar-right.html" . }}
+    </div>
+    <div class="back-to-top">
+        <i class="fa fa-arrow-up"></i>
+    </div>
+</main>
+</div>
+<!--Main layout-->
+{{ end }}

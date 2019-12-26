@@ -1,0 +1,45 @@
+{{/* Put this file as /layouts/shortcodes/gallery.html */}}
+{{ $baseURL := .Site.BaseURL | absURL }}
+{{ $pageDir := .Page.File.Dir}}
+{{ $filePath := "" }}
+{{/* /static/ image? */}}
+{{ $library := eq (.Get "library" | default "true") "true" }}
+
+{{/* generate figures for all of the images in the directory */}}
+{{ if $library }}
+  {{ $filePath = print "/static/" (.Get "album")}}
+{{ else }}
+  {{ $filePath = print "/content/" $pageDir (.Get "album") "/"}}
+  {{$pageDir}}
+{{ end }}
+<div class="gallery col-lg-10 offset-lg-1">
+  {{ with (.Get "album") }}
+    {{ if (fileExists $filePath) }}
+      {{ $files := readDir ($filePath) }}
+      {{- range $files -}}
+        {{ $linkURL := ""}}
+        {{/* is the current file an image? */}}
+        {{- $isimg := lower .Name | findRE "\\.(gif|jpg|jpeg|tiff|png|bmp)" }}
+        {{- if $isimg }}
+          {{/* humanized filename without extension */}}
+          {{- $caption := .Name | replaceRE "\\..*" "" | humanize }}
+        {{ if $library }}
+          {{/* absolute URL to hi-res image */}}
+          {{- $linkURL = print $baseURL ($.Get "album") "/" .Name | absURL }}
+        {{ else }}
+          {{/* absolute URL to hi-res image */}}
+          {{- $linkURL = print "../gallery/" .Name }}
+      {{ end }}
+      <a data-fancybox="" href="{{ $linkURL }}" {{ with $caption }}data-caption="{{ .|markdownify|emojify }}" {{ end }}>
+        <img src="{{ $linkURL }}" alt="">
+      </a>
+      {{ end }}
+      {{- end -}}
+    {{ else }}
+      {{ errorf "path not exist: %s in %s." $filePath $.Position }}
+    {{ end }}
+  {{ else }}
+    {{/* If no directory was specified, include any figure shortcodes called within the gallery */}}
+    {{ errorf "Unable to load gallery in %s." .Position }}
+  {{ end }}
+</div>

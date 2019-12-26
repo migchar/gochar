@@ -1,0 +1,36 @@
+baseURL = "https://migchar.com/"
+builddrafts                = false
+defaultContentLanguage = "zh"
+canonifyurls               = true
+contentdir                 = "content"
+layoutdir                  = "layouts"
+publishdir                 = "public"
+enableEmoji                = true
+hasCJKLanguage             = true
+summaryLength              = 200
+Paginate                   = 10
+
+theme                      = "gochar"
+title                      = "米格论文"
+
+pygmentsuseclasses         = true
+
+[outputs]
+  home = [ "HTML", "RSS"]
+  section = [ "HTML", "RSS" ]
+
+[permalinks]
+  sci-tech                 = "sci-tech/:year:month/:slug/"
+  project                  = "project/:slug/"
+  blog                     = "blog/:year:month/:slug/"
+  profile                  = "profile/:slug/"
+
+
+[taxonomies]
+  tag                      = "tags"
+  series                   = "series"
+  category                 = "categories"
+
+[blackfriday]
+  plainIDAnchors = true
+  hrefTargetBlank = true

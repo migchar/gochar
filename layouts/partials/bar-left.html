@@ -1,0 +1,88 @@
+<aside id="aside" class="left">
+    <div class="inner">
+        <div class="sns master-info">
+            <div class="info-base">
+                <h2 class="blogname">{{ .Site.Title }}
+                    <svg class="icon-lg" aria-hidden="true">
+                        <use xlink:href="#icon-ca"></use>
+                    </svg>
+                </h2>
+                <div class="nickname">@{{ .Site.Params.author }}</div>
+                <p class="description">{{ range $.Site.Params.author_description }}{{ . }}<br>{{ end }}
+                </p>
+            </div>
+            <!-- social info-->
+            <div class="info-extras">
+                {{ if .Site.Params.social_info.enable }}
+
+                {{ if .Site.Params.social_info.location }}
+                <div class="item location">
+                    <svg class="icon" aria-hidden="true">
+                        <use xlink:href="#icon-location"></use>
+                    </svg>
+                    {{ .Site.Params.social_info.location }}
+                </div>
+                {{ end }}
+
+                {{ if .Site.Params.social_info.qq }}
+                <div class="item site">
+                    <svg class="icon" aria-hidden="true">
+                        <use xlink:href="#icon-qq"></use>
+                    </svg>
+                    <a class="tips-right" aria-label="{{.}}" href="{{.Site.Params.social_info.qq}}"
+                       rel="nofollow" target="_blank">QQ</a>
+                </div>
+                {{ end }}
+
+                {{ if .Site.Params.social_info.wechat }}
+                <div class="item site">
+                    <svg class="icon" aria-hidden="true">
+                        <use xlink:href="#icon-wechat"></use>
+                    </svg>
+                    <a class="tips-right" aria-label="{{.}}" href="{{.Site.Params.social_info.wechat}}"
+                       rel="nofollow" target="_blank">微信</a>
+                </div>
+                {{ end }}
+
+                {{ if .Site.Params.social_info.github }}
+                <div class="item site">
+                    <svg class="icon" aria-hidden="true">
+                        <use xlink:href="#icon-github"></use>
+                    </svg>
+                    <a class="tips-right" aria-label="{{.}}" href="{{.Site.Params.social_info.github}}"
+                       rel="nofollow" target="_blank">Github</a>
+                </div>
+                {{ end }}
+
+                {{ if .Site.Params.social_info.email }}
+                <div class="item site">
+                    <svg class="icon" aria-hidden="true">
+                        <use xlink:href="#icon-email"></use>
+                    </svg>
+                    <a class="tips-right" aria-label="{{.}}" href="{{.Site.Params.social_info.email}}"
+                       rel="nofollow" target="_blank">Email</a>
+                </div>
+                {{ end }}
+
+                {{ if .Site.Params.social_info.twitter }}
+                <div class="item site">
+                    <svg class="icon" aria-hidden="true">
+                        <use xlink:href="#icon-twitter"></use>
+                    </svg>
+                    <a class="tips-right" aria-label="{{.}}" href="{{.Site.Params.social_info.twitter}}"
+                       rel="nofollow" target="_blank">Twitter</a>
+                </div>
+                {{ end }}
+
+                <div class="item active">
+                    <svg class="icon" aria-hidden="true">
+                        <use xlink:href="#icon-time"></use>
+                    </svg>
+                    last updated on {{ now.Format "2006-01-02" }}
+                </div>
+
+                {{ end }}
+            </div>
+        </div>
+    </div>
+</aside>

@@ -1,0 +1,77 @@
+{{ $url := .URL }}
+{{ $type := .Type }}
+<!-- #mobilebar -->
+<section id="mobilebar">
+    <div class="inner width">
+        <div class="col back">
+            <a href="{{ .Permalink }}">
+                <svg class="icon" aria-hidden="true">
+                    <use xlink:href="#icon-back"></use>
+                </svg>
+            </a>
+        </div>
+        <div class="col title">
+            {{ if eq .Kind "home" }}{{ .Site.Title }}
+            {{ else }}{{ if .Params.heading }} {{ .Params.heading }} | {{ .Site.Title }}
+            {{ else }} {{ .Title }} | {{ .Site.Title }} {{ end }}
+            {{ end }}
+        </div>
+        <div class="col switch"><a href="javascript:;"> <svg class="icon" aria-hidden="true">
+            <use xlink:href="#icon-more"></use>
+        </svg></a></div>
+    </div>
+</section>
+<!-- #overlay.mobile -->
+<section id="overlay" class="mobile">
+    <div id="m-menu">
+        <div class="inner">
+            <ul id="menu-inspire" class="nav-menu m-menu">
+                <li id="menu-item-001" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-home {{ if eq $url "/" }} current-menu-item {{ end }}">
+                    <a href="{{ .Site.BaseURL }}"><i class="icon louie-home"></i> 首页</a>
+                </li>
+                {{ range .Site.Menus.main }}
+                <li id="menu-item-" class="menu-item menu-item-type-taxonomy menu-item-object-category">
+                    <a href="{{ .URL | absURL }}"><i class="icon louie-pc6"></i> {{ .Name }}</a>
+                </li>
+                {{ end }}
+            </ul>
+        </div>
+    </div>
+</section>
+<header id="header" class="site-header">
+    <section class="topbar">
+        <div class="inner col-md-10 offset-md-1 col-xl-8 offset-xl-2">
+            <div class="nav pull-left">
+                <ul class="nav-menu top-menu">
+                    <li>
+                        <a href="">{{ .Site.Params.proverb }}</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="meta pull-right">
+                <!-- Search form -->
+                <form class="searchform">
+                    <div class="form-row align-items-center">
+                        <div class="col-auto">
+                            <!-- Default input -->
+                            <label class="sr-only" for="inlineFormInputGroup">论文</label>
+                            <div class="input-group mb-2">
+                                <div class="input-group-prepend">
+                                    <div class="input-group-text">
+                                        <svg class="icon" aria-hidden="true">
+                                            <use xlink:href="#icon-search"></use>
+                                        </svg>
+                                    </div>
+                                </div>
+                                <input type="text" class="form-control py-0" id="inlineFormInputGroup" placeholder="搜索">
+                            </div>
+                        </div>
+                    </div>
+                </form>
+                <!-- /Search form -->
+            </div>
+        </div>
+    </section><!-- .topbar ###-->
+
+    {{ partial "site-hero.html" . }}
+</header>

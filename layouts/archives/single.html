@@ -1,0 +1,50 @@
+{{ define "main" }}
+<div id="container" class="site-refresh default-archives">
+    {{ partial "bar-main.html" . }}
+    <main id="post-main" class="post-main-wrapper mx-auto px-1 px-lg-5">
+        <div class="row">
+            <div class="col-md-3 d-none d-md-block pl-4 pl-lg-0">
+                {{ partial "bar-left.html" . }}
+            </div>
+            <!-- Post list -->
+            <div id="main" class="col-12 col-md-9 col-lg-6 p-0">
+
+                <div class="heading">
+                    <div class="inner">
+                    <span class="underline-span pl-1 mr-2 font-weight-bold">
+                        {{ partial "page-heading.html" . }}
+                    </span>
+                        {{ $page_num := (len ((where (where .Site.Pages "Type" "not in" (slice "about" "archives" "home")) "Kind" "page")) )}}
+                        {{ if gt $page_num 0 }}
+                        <span>
+                            {{ i18n "postCount" $page_num }}(゜-゜)つロ 干杯~"
+                        </span>
+                        {{ end }}
+                    </div>
+                </div>
+
+                    {{ if .Content }}
+                    <div class="post-content markdown">
+                        {{ .Content }}
+                    </div>
+                    {{ end }}
+
+                    <div class="posts-collapse pt-0">
+                        {{ range (where (where .Site.Pages "Type" "not in" (slice "about" "archives" "home")) "Kind" "page").GroupByDate "2006" }}
+                        <li class="post-item no-bullet">
+                            <span class="date">{{ .Key }}</span>
+                        </li>
+                        {{ range .Pages }}
+                            {{ partial "li.html" . }}
+                        {{ end }}
+                        {{ end }}
+                    </div>
+            </div>
+            <!-- /Post list -->
+            <!-- Sidebar -->
+            {{ partial "bar-right.html" . }}
+            <!-- /Sidebar -->
+        </div>
+    </main>
+</div>
+{{end}}

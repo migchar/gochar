@@ -1,0 +1,23 @@
+<aside id="aside" class="right col-md-3  d-none d-lg-block">
+    <!-- Sidebar -->
+        <!-- Random Word-->
+        {{ if .Site.Params.random_word.enable }}
+        <div class="widget">
+            <h3 class="widget-title">
+                <svg class="icon" aria-hidden="true">
+                    <use xlink:href="#icon-smile"></use>
+                </svg>
+                {{ .Site.Params.random_word.head }}
+            </h3>
+            <div class="textwidget"><span id="jinrishici-sentence">正在加载....</span>
+                <script src="{{ .Site.Params.random_word.from_site }}" charset="utf-8"></script>
+            </div>
+        </div>
+        {{ end }}
+        <hr>
+        <!-- /Random Word-->
+        <!--{{ partial "sidebar-categories.html" . }}-->
+        <!--{{ partial "sidebar-tags.html" . }}-->
+        {{ partial "sidebar-series.html" . }}
+    <!-- /.Sidebar -->
+</aside>

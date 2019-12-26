@@ -1,0 +1,46 @@
+<!-- Footer -->
+<footer class="page-footer unique-color p-5 mt-5">
+    <!-- Footer Text -->
+    <div class="container-fluid text-center text-md-left col-md-10 offset-md-2 col-xl-8 offset-xl-3">
+        <!-- Grid row -->
+        <div class="row">
+            <!-- Grid column -->
+            <div class="col-md-6 mt-md-0 mt-3">
+                <!-- Content -->
+                <h6 class="text-uppercase font-small"></h6>
+                <p>
+                    {{ range .Site.Menus.footer }}
+                    <a href="{{ .URL | absURL }}">{{ .Name }}</a>
+                    {{ end }}
+                </p>
+                <p>
+                    <a href="/archives/">文章归档</a> ·
+                    <a href="/categories/">分类</a> ·
+                    <a href="/tags/">标签</a> ·
+                    <a href="/series/">专题</a>
+                </p>
+            </div>
+            <!-- Grid column -->
+            <hr class="clearfix w-100 d-md-none pb-3">
+            <!-- Grid column -->
+            <div class="col-md-6 mb-md-0 mb-3">
+                <!-- Content -->
+                <h5 class="text-uppercase"></h5>
+
+                <div class="">
+                    {{ if .Site.Params.copyright.enable }}
+                    <a class="font-small" href='http://www.beian.miit.gov.cn/' target="_blank" rel="nofollow noopener noreferrer">
+                        {{ .Site.Params.copyright.icp }}
+                    </a><br>
+                    {{ end }}
+                    &copy; {{ .Site.Params.copyright.from_year }} - {{ now.Year }} <a href='https://www.migchar.com'>{{ .Site.Title }}</a><br>
+                    <p id="magic"></p>
+                </div>
+            </div>
+            <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+    </div>
+    <!-- Footer Text -->
+</footer>
+<!-- Footer -->

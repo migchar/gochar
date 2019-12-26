@@ -1,0 +1,49 @@
+# Navigation Links
+# The weight parameter defines the order that the links will appear in.
+#[[main]]
+#  name = "论文"
+#  weight = 100
+#  identifier = "paper"
+#  url = "paper/"
+#[[main]]
+#  name = "源码毕设"
+#  weight = 200
+#  identifier = "project"
+#  url = "project/"
+#[[main]]
+#  name = "论文分享"
+#  weight = 300
+#  identifier = "paper-share"
+#  url = "paper-share/"
+#[[main]]
+#  name = "笔记"
+#  weight = 400
+#  identifier = "sci-tech"
+#  url = "sci-tech/"
+[[main]]
+  name = "斯是陋室"
+  weight = 500
+  identifier = "blog"
+  url = "blog/"
+[[main]]
+  name = "关于"
+  weight = 600
+  identifier = "about"
+  url = "about/"
+
+# footer nemu
+[[footer]]
+  name = "本硕论文"
+  weight = 100
+  identifier = "paper"
+  url = "paper/"
+[[footer]]
+  name = "源码毕设"
+  weight = 100
+  identifier = "project"
+  url = "project/"
+[[footer]]
+  name = "联系我"
+  weight = 100
+  identifier = "contact"
+  url = "about/"

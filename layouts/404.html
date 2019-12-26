@@ -1,0 +1,24 @@
+{{ define "main" }}
+  <!-- Main layout -->
+  <main class="post-main-wrapper">
+    <div class="container">
+      <div class="content">
+        <div class="post-heading" style="font-family: 'Raleway';">404</div>
+        <div class="py-4"><i class="far fa-frown-open mr-2"></i>{{ i18n "page_not_found" }}</div>
+      </div>
+      <p>{{ i18n "404_recommendations" }}</p>
+
+      {{ $query := site.RegularPages }}
+      {{ $count := len $query }}
+      {{ if gt $count 0 }}
+      <h2>{{ i18n "user_profile_latest" }}</h2>
+      <ul>
+        {{ range first 10 $query }}
+        <li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+        {{ end }}
+      </ul>
+      {{ end }}
+    </div>
+  </main>
+  <!-- /.Main layout -->
+{{ end }}
