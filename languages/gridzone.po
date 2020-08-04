@@ -1,0 +1,813 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Gridzone\n"
+"POT-Creation-Date: 2020-05-17 13:04+0200\n"
+"PO-Revision-Date: 2018-09-21 21:27+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.3\n"
+"X-Poedit-KeywordsList: __;_e;_x;_ex;_n;_nx;_n_noop;_nx_noop;"
+"translate_nooped_plural;number_format_i18n;date_i18n;esc_html__;esc_html_e;"
+"esc_html_x;esc_attr__;esc_attr_e;esc_attr_x\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: functions/class-tgm-plugin-activation.php\n"
+"X-Poedit-SearchPathExcluded-1: functions/kirki\n"
+
+#: comments.php:7
+msgid "No Responses"
+msgstr ""
+
+#: comments.php:7
+msgid "1 Response"
+msgstr ""
+
+#: comments.php:7
+msgid "% Responses"
+msgstr ""
+
+#: comments.php:10
+msgid "Comments"
+msgstr ""
+
+#: comments.php:11
+msgid "Pingbacks"
+msgstr ""
+
+#: footer.php:65
+msgid "Y"
+msgstr ""
+
+#: footer.php:65
+msgid "All Rights Reserved."
+msgstr ""
+
+#: footer.php:71
+msgid "Powered by"
+msgstr ""
+
+#: footer.php:71
+msgid "Theme by"
+msgstr ""
+
+#: functions.php:91
+msgid "Mobile"
+msgstr "移动端"
+
+#: functions.php:92 functions/theme-options.php:52
+msgid "Header"
+msgstr "头部"
+
+#: functions.php:182
+msgid "Primary"
+msgstr ""
+
+#: functions.php:182
+msgid "Normal full width sidebar"
+msgstr "常规宽度侧边栏"
+
+#: functions.php:184 functions/theme-options.php:255
+msgid "Footer Ads"
+msgstr "页脚广告"
+
+#: functions.php:184
+msgid "Footer ads area"
+msgstr "页面广告区域"
+
+#: functions.php:186
+msgid "Frontpage Top 1"
+msgstr "首页上部工具栏1"
+
+#: functions.php:186 functions.php:187 functions.php:188 functions.php:189
+msgid "小工具区域"
+msgstr ""
+
+#: functions.php:187
+msgid "Frontpage Top 2"
+msgstr "首页上部工具栏2"
+
+#: functions.php:188
+msgid "Frontpage Bottom 1"
+msgstr "首页底部工具栏1"
+
+#: functions.php:189
+msgid "Frontpage Bottom 2"
+msgstr "首页底部工具栏2"
+
+#: functions.php:191
+msgid "Footer 1"
+msgstr "页脚1"
+
+#: functions.php:191 functions.php:192 functions.php:193 functions.php:194
+msgid "Widgetized footer"
+msgstr ""
+
+#: functions.php:192
+msgid "Footer 2"
+msgstr "页脚2"
+
+#: functions.php:193
+msgid "Footer 3"
+msgstr "页脚3"
+
+#: functions.php:194
+msgid "Footer 4"
+msgstr "页脚4"
+
+#: functions.php:689
+msgid "Alx Extensions"
+msgstr ""
+
+#: functions.php:693
+msgid "Meta Box"
+msgstr ""
+
+#: functions.php:697
+msgid "Regenerate Thumbnails"
+msgstr ""
+
+#: functions.php:701
+msgid "WP-PageNavi"
+msgstr ""
+
+#: functions/meta-boxes.php:21
+msgid "Page Options"
+msgstr "页面选项"
+
+#: functions/meta-boxes.php:29 functions/meta-boxes.php:63
+msgid "Primary Sidebar"
+msgstr "主侧边栏"
+
+#: functions/meta-boxes.php:31 functions/meta-boxes.php:65
+#: functions/theme-options.php:454 functions/theme-options.php:464
+#: functions/theme-options.php:474 functions/theme-options.php:484
+#: functions/theme-options.php:494 functions/theme-options.php:504
+#: functions/theme-options.php:514
+msgid "Select a sidebar"
+msgstr "选择一个侧边栏"
+
+#: functions/meta-boxes.php:37 functions/meta-boxes.php:71
+#: functions/theme-options.php:62
+msgid "Layout"
+msgstr "布局"
+
+#: functions/meta-boxes.php:55
+msgid "Post Options"
+msgstr "文章选项"
+
+#: functions/nav.php:167
+msgid "Expand Menu"
+msgstr "扩展菜单"
+
+#: functions/nav.php:203
+msgid "Toggle Child Menu"
+msgstr ""
+
+#: functions/nav.php:273 functions/nav.php:287
+#, php-format
+msgid "<span class=\"screen-reader-text\">%1$s </span>%2$s"
+msgstr ""
+
+#: functions/nav.php:274
+msgid "Current Page:"
+msgstr "当前页面："
+
+#: functions/nav.php:288
+msgid "Current Page Parent"
+msgstr "当前父页："
+
+#: functions/theme-options.php:16
+msgid "AlxMedia"
+msgstr ""
+
+#: functions/theme-options.php:18
+msgid "View More Themes"
+msgstr "更多主题信息"
+
+#: functions/theme-options.php:23
+msgid "Like This Theme?"
+msgstr "喜欢这个主题？"
+
+#: functions/theme-options.php:26
+msgid "Write a Review"
+msgstr "给作者反馈"
+
+#: functions/theme-options.php:35
+msgid "Theme Options"
+msgstr "主题选项"
+
+#: functions/theme-options.php:42
+msgid "General"
+msgstr "一般"
+
+#: functions/theme-options.php:47
+msgid "Blog"
+msgstr "博客"
+
+#: functions/theme-options.php:57
+msgid "Footer"
+msgstr "页脚"
+
+#: functions/theme-options.php:67
+msgid "Sidebars"
+msgstr "侧边栏"
+
+#: functions/theme-options.php:72
+msgid "Social Links"
+msgstr "社交链接"
+
+#: functions/theme-options.php:77
+msgid "Styling"
+msgstr "样式"
+
+#: functions/theme-options.php:88
+msgid "Mobile Sidebar Content"
+msgstr "移动端侧边栏"
+
+#: functions/theme-options.php:89
+msgid "Sidebar content on low-resolution mobile devices (320px)"
+msgstr "是否在低分辨率设备上显示侧边栏（小于320px）"
+
+#: functions/theme-options.php:97
+msgid "Recommended Plugins"
+msgstr "推荐插件"
+
+#: functions/theme-options.php:98
+msgid "Enable or disable the recommended plugins notice"
+msgstr "启用或关闭推荐插件通知"
+
+#: functions/theme-options.php:106
+msgid "Enable Blog Heading"
+msgstr "启用博客标题"
+
+#: functions/theme-options.php:107
+msgid "Show heading on blog home"
+msgstr "在博客首页上显示博客标题"
+
+#: functions/theme-options.php:115
+msgid "Heading"
+msgstr "标题"
+
+#: functions/theme-options.php:116
+msgid "Your blog heading"
+msgstr "你的博客标题"
+
+#: functions/theme-options.php:124
+msgid "Subheading"
+msgstr "子标题"
+
+#: functions/theme-options.php:125
+msgid "Your blog subheading"
+msgstr "你的博客子标题"
+
+#: functions/theme-options.php:133
+msgid "Excerpt Length"
+msgstr "摘要长度"
+
+#: functions/theme-options.php:134
+msgid "Max number of words. Set it to 0 to disable."
+msgstr "摘要最大字数。0代表禁用。"
+
+#: functions/theme-options.php:147
+msgid "Frontpage Widgets Top"
+msgstr "首页顶端小工具栏"
+
+#: functions/theme-options.php:148 functions/theme-options.php:157
+msgid "2 columns of widgets"
+msgstr "2列工具栏"
+
+#: functions/theme-options.php:156
+msgid "Frontpage Widgets Bottom"
+msgstr "首页底部小工具栏"
+
+#: functions/theme-options.php:165
+msgid "Comment Count"
+msgstr "评论计数"
+
+#: functions/theme-options.php:166
+msgid "Comment count with bubbles"
+msgstr "评论气泡计数"
+
+#: functions/theme-options.php:174
+msgid "Single - Author Bio"
+msgstr "文章页 - 作者简介"
+
+#: functions/theme-options.php:175
+msgid "Shows post author description, if it exists"
+msgstr "显示作者个人简介"
+
+#: functions/theme-options.php:183
+msgid "Single - Related Posts"
+msgstr "文章页 - 相关文章"
+
+#: functions/theme-options.php:184
+msgid "Shows randomized related articles below the post"
+msgstr "在文章下方显示相关文章"
+
+#: functions/theme-options.php:188 functions/theme-options.php:202
+msgid "Disable"
+msgstr "禁用"
+
+#: functions/theme-options.php:189
+msgid "Related by categories"
+msgstr ""
+
+#: functions/theme-options.php:190
+msgid "Related by tags"
+msgstr ""
+
+#: functions/theme-options.php:197
+msgid "Single - Post Navigation"
+msgstr "文章页 - 上一篇与下一篇"
+
+#: functions/theme-options.php:198
+msgid "Shows links to the next and previous article"
+msgstr "显示上一篇和下一篇链接"
+
+#: functions/theme-options.php:203
+msgid "Below content"
+msgstr "内容下方"
+
+#: functions/theme-options.php:210
+msgid "Header Search"
+msgstr "头部"
+
+#: functions/theme-options.php:211
+msgid "Header search button"
+msgstr "头部搜索按钮"
+
+#: functions/theme-options.php:219
+msgid "Header Social Links"
+msgstr "头部社交链接"
+
+#: functions/theme-options.php:220 functions/theme-options.php:281
+msgid "Social link icon buttons"
+msgstr "社交链接图标按钮"
+
+#: functions/theme-options.php:228
+msgid "Profile Image"
+msgstr "个人头像"
+
+#: functions/theme-options.php:229
+msgid "Minimum width of 320px"
+msgstr ""
+
+#: functions/theme-options.php:237
+msgid "Profile Name"
+msgstr "称呼"
+
+#: functions/theme-options.php:238
+msgid "Your name appears below the image"
+msgstr "称呼显示在头像旁"
+
+#: functions/theme-options.php:246
+msgid "Profile Description"
+msgstr "个人简介"
+
+#: functions/theme-options.php:247
+msgid "A short description of you"
+msgstr "关于个人关于网站的简单介绍"
+
+#: functions/theme-options.php:256
+msgid "Footer widget ads area"
+msgstr "尾部广告区域"
+
+#: functions/theme-options.php:264
+msgid "Footer Widget Columns"
+msgstr "尾部工具栏数"
+
+#: functions/theme-options.php:265
+msgid "Select columns to enable footer widgets. Recommended number: 3"
+msgstr "选择栏数。建议选择3栏"
+
+#: functions/theme-options.php:280
+msgid "Footer Social Links"
+msgstr "尾部社交链接"
+
+#: functions/theme-options.php:289
+msgid "Footer Logo"
+msgstr "尾部Logo"
+
+#: functions/theme-options.php:290
+msgid "Upload your custom logo image"
+msgstr "上传自定义Logo图像"
+
+#: functions/theme-options.php:298
+msgid "Footer Copyright"
+msgstr "版权声明"
+
+#: functions/theme-options.php:299
+msgid "Replace the footer copyright text"
+msgstr "页脚版权声明"
+
+#: functions/theme-options.php:307
+msgid "Footer Credit"
+msgstr "技术支持"
+
+#: functions/theme-options.php:308
+msgid "Footer credit text"
+msgstr "页脚技术支持声明"
+
+#: functions/theme-options.php:316
+msgid "Global Layout"
+msgstr "全局布局"
+
+#: functions/theme-options.php:317
+msgid "Other layouts will override this option if they are set"
+msgstr "其他布局设置将会覆盖此选项"
+
+#: functions/theme-options.php:330 functions/theme-options.php:449
+msgid "Home"
+msgstr "首页"
+
+#: functions/theme-options.php:331
+msgid "(is_home) Posts homepage layout"
+msgstr "(is_home) 首页布局"
+
+#: functions/theme-options.php:345 functions/theme-options.php:459
+msgid "Single"
+msgstr "文章页"
+
+#: functions/theme-options.php:346
+msgid ""
+"(is_single) Single post layout - If a post has a set layout, it will "
+"override this."
+msgstr ""
+"(is_single) 文章页布局 - 如果文章单独指定了布局，则覆盖此选项。"
+
+#: functions/theme-options.php:360 functions/theme-options.php:469
+msgid "Archive"
+msgstr "归档"
+
+#: functions/theme-options.php:361
+msgid "(is_archive) Category, date, tag and author archive layout"
+msgstr "(is_archive) 分类, 日期, 标签和作者归档页布局"
+
+#: functions/theme-options.php:375 functions/theme-options.php:479
+msgid "Archive - Category"
+msgstr "归档 - 分类"
+
+#: functions/theme-options.php:376
+msgid "(is_category) Category archive layout"
+msgstr "(is_category) 分类归档页布局"
+
+#: functions/theme-options.php:390 functions/theme-options.php:489
+msgid "Search"
+msgstr "搜索"
+
+#: functions/theme-options.php:391
+msgid "(is_search) Search page layout"
+msgstr "(is_search) 搜索结果页布局"
+
+#: functions/theme-options.php:405 functions/theme-options.php:499
+msgid "Error 404"
+msgstr ""
+
+#: functions/theme-options.php:406
+msgid "(is_404) Error 404 page layout"
+msgstr "(is_404) 404页面布局"
+
+#: functions/theme-options.php:420 functions/theme-options.php:509
+msgid "Default Page"
+msgstr "默认页面"
+
+#: functions/theme-options.php:421
+msgid ""
+"(is_page) Default page layout - If a page has a set layout, it will override "
+"this."
+msgstr "(is_page) 默认页面布局"
+
+#: functions/theme-options.php:450
+msgid "(is_home) Primary"
+msgstr "(is_home) 主侧边栏"
+
+#: functions/theme-options.php:460
+msgid ""
+"(is_single) Primary - If a single post has a unique sidebar, it will "
+"override this."
+msgstr "(is_single) 主侧边栏 - 如果文章页单独指定了侧边栏，则覆盖此选项。"
+
+#: functions/theme-options.php:470
+msgid "(is_archive) Primary"
+msgstr "(is_archive) 归档页主侧边栏"
+
+#: functions/theme-options.php:480
+msgid "(is_category) Primary"
+msgstr "(is_category) 分类页主侧边栏"
+
+#: functions/theme-options.php:490
+msgid "(is_search) Primary"
+msgstr "(is_search) 搜索结果页主侧边栏"
+
+#: functions/theme-options.php:500
+msgid "(is_404) Primary"
+msgstr "(is_404) 404页主侧边栏"
+
+#: functions/theme-options.php:510
+msgid ""
+"(is_page) Primary - If a page has a unique sidebar, it will override this."
+msgstr "(is_page) 页面主侧边栏"
+
+#: functions/theme-options.php:523
+msgid "Create Social Links"
+msgstr "新的社交链接"
+
+#: functions/theme-options.php:524
+msgid "Create and organize your social links"
+msgstr "新建或管理社交链接"
+
+#: functions/theme-options.php:526
+msgid "Font Awesome names:"
+msgstr ""
+
+#: functions/theme-options.php:526 functions/theme-options.php:543
+msgid "View All"
+msgstr "浏览全部"
+
+#: functions/theme-options.php:529
+msgid "social link"
+msgstr "社交链接"
+
+#: functions/theme-options.php:536
+msgid "Title"
+msgstr "标题"
+
+#: functions/theme-options.php:537
+msgid "Ex: Facebook"
+msgstr "比如：微信"
+
+#: functions/theme-options.php:542
+msgid "Icon Name"
+msgstr "图标代码"
+
+#: functions/theme-options.php:543
+msgid "Font Awesome icons. Ex: fa-facebook "
+msgstr "阿里巴巴图标代码，比如 icon-weixin"
+
+#: functions/theme-options.php:548
+msgid "Link"
+msgstr "链接"
+
+#: functions/theme-options.php:549
+msgid "Enter the full url for your icon button"
+msgstr "点击图标后跳转的链接"
+
+#: functions/theme-options.php:554
+msgid "Icon Color"
+msgstr "图标颜色"
+
+#: functions/theme-options.php:555
+msgid "Set a unique color for your icon (optional)"
+msgstr "为图标设置颜色（可选）"
+
+#: functions/theme-options.php:560
+msgid "Open in new window"
+msgstr "浏览器新标签页打开"
+
+#: functions/theme-options.php:569
+msgid "Dynamic Styles"
+msgstr ""
+
+#: functions/theme-options.php:570
+msgid "Turn on to use the styling options below"
+msgstr ""
+
+#: functions/theme-options.php:578
+msgid "Dark Theme"
+msgstr "深色主题"
+
+#: functions/theme-options.php:579
+msgid "Use dark instead of light base"
+msgstr "深色护眼主题"
+
+#: functions/theme-options.php:587
+msgid "Font"
+msgstr ""
+
+#: functions/theme-options.php:588
+msgid "Select font for the theme"
+msgstr ""
+
+#: functions/theme-options.php:592
+msgid "Titillium Web, Latin (Self-hosted)"
+msgstr ""
+
+#: functions/theme-options.php:593
+msgid "Titillium Web, Latin-Ext"
+msgstr ""
+
+#: functions/theme-options.php:594
+msgid "Droid Serif, Latin"
+msgstr ""
+
+#: functions/theme-options.php:595
+msgid "Source Sans Pro, Latin-Ext"
+msgstr ""
+
+#: functions/theme-options.php:596
+msgid "Lato, Latin"
+msgstr ""
+
+#: functions/theme-options.php:597
+msgid "Raleway, Latin"
+msgstr ""
+
+#: functions/theme-options.php:598
+msgid "Ubuntu, Latin-Ext"
+msgstr ""
+
+#: functions/theme-options.php:599
+msgid "Ubuntu, Latin / Cyrillic-Ext"
+msgstr ""
+
+#: functions/theme-options.php:600
+msgid "Roboto, Latin-Ext"
+msgstr ""
+
+#: functions/theme-options.php:601
+msgid "Roboto, Latin / Cyrillic-Ext"
+msgstr ""
+
+#: functions/theme-options.php:602
+msgid "Roboto Condensed, Latin-Ext"
+msgstr ""
+
+#: functions/theme-options.php:603
+msgid "Roboto Condensed, Latin / Cyrillic-Ext"
+msgstr ""
+
+#: functions/theme-options.php:604
+msgid "Roboto Slab, Latin-Ext"
+msgstr ""
+
+#: functions/theme-options.php:605
+msgid "Roboto Slab, Latin / Cyrillic-Ext"
+msgstr ""
+
+#: functions/theme-options.php:606
+msgid "Playfair Display, Latin-Ext"
+msgstr ""
+
+#: functions/theme-options.php:607
+msgid "Playfair Display, Latin / Cyrillic"
+msgstr ""
+
+#: functions/theme-options.php:608
+msgid "Open Sans, Latin-Ext"
+msgstr ""
+
+#: functions/theme-options.php:609
+msgid "Open Sans, Latin / Cyrillic-Ext"
+msgstr ""
+
+#: functions/theme-options.php:610
+msgid "PT Serif, Latin-Ext"
+msgstr ""
+
+#: functions/theme-options.php:611
+msgid "PT Serif, Latin / Cyrillic-Ext"
+msgstr ""
+
+#: functions/theme-options.php:612
+msgid "Arial"
+msgstr ""
+
+#: functions/theme-options.php:613
+msgid "Georgia"
+msgstr ""
+
+#: functions/theme-options.php:614
+msgid "Verdana"
+msgstr ""
+
+#: functions/theme-options.php:615
+msgid "Tahoma"
+msgstr ""
+
+#: functions/theme-options.php:622
+msgid "Border Radius"
+msgstr ""
+
+#: functions/theme-options.php:623
+msgid "Change border radius of theme elements"
+msgstr ""
+
+#: functions/theme-options.php:636
+msgid "Header Logo Image Max-height"
+msgstr ""
+
+#: functions/theme-options.php:637
+msgid ""
+"Your logo image should have the double height of this to be high resolution"
+msgstr ""
+
+#: functions/theme-options.php:650
+msgid "页头颜色"
+msgstr ""
+
+#: functions/theme-options.php:658
+msgid "Social Sidebar Color"
+msgstr "社交侧边栏颜色"
+
+#: functions/theme-options.php:666
+msgid "Post Item Color"
+msgstr "文章列表项文字背景颜色"
+
+#: functions/theme-options.php:674
+msgid "Link Color"
+msgstr "链接颜色"
+
+#: functions/theme-options.php:682
+msgid "Background Color"
+msgstr "背景颜色"
+
+#: functions/theme-options.php:690
+msgid "Single Box Max-width"
+msgstr "单页周围框的最大宽度"
+
+#: functions/theme-options.php:691
+msgid "Max-width of the box around the content on single posts"
+msgstr "文章页内容周围框的最大宽度"
+
+#: functions/theme-options.php:704
+msgid "Single Content Max-width"
+msgstr "单页最大宽度"
+
+#: functions/theme-options.php:705
+msgid "Max-width of the content on single posts"
+msgstr "文章页内容的最大宽度"
+
+#: functions/theme-options.php:718
+msgid "Page Box Max-width"
+msgstr "页面框最大宽度"
+
+#: functions/theme-options.php:719
+msgid "Max-width of the box around the content on pages"
+msgstr "页面内容周围框的最大宽度"
+
+#: functions/theme-options.php:732
+msgid "Page Content Max-width"
+msgstr "页面内容最大宽度"
+
+#: functions/theme-options.php:733
+msgid "Max-width of the content on pages"
+msgstr "页面内容最大宽度"
+
+#: header.php:17
+msgid "Skip to content"
+msgstr "跳过内容"
+
+#: inc/page-title.php:18
+msgid "Search result"
+msgstr "搜索结果"
+
+#: inc/page-title.php:20
+msgid "Search results"
+msgstr "搜索结果"
+
+#: inc/page-title.php:25
+msgid "For the term"
+msgstr "搜索项 "
+
+#: inc/page-title.php:27
+msgid "Please try another search:"
+msgstr "请重新搜索"
+
+#: inc/page-title.php:35
+msgid "Error 404."
+msgstr ""
+
+#: inc/page-title.php:35
+msgid "Page not found!"
+msgstr "页面未找到"
+
+#: inc/page-title.php:37
+msgid ""
+"The page you are trying to reach does not exist, or has been moved. Please "
+"use the menus or the search box to find what you are looking for."
+msgstr "页面不存在"
+
+#: inc/post-nav.php:3
+msgid "Next"
+msgstr "下一篇"
+
+#: inc/post-nav.php:4
+msgid "Previous"
+msgstr "上一篇"
+
+#: searchform.php:3
+msgid "To search type and hit enter"
+msgstr "搜索..."
+
+#: single.php:26
+msgid "Pages:"
+msgstr "页面："
+
+#: single.php:32
+msgid "Tags:"
+msgstr "标签："
