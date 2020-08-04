@@ -87,7 +87,7 @@ Source: https://github.com/aristath/kirki
 
 = 1.0.3 - 2020-08-01 =
 
-Added theme tags: portfolio and photography
+Layout Rebuild
 
 = 1.0.2 - 2020-05-20 =
 
