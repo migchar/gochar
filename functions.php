@@ -506,7 +506,7 @@ if (!function_exists('gridzone_related_posts')) {
             'ignore_sticky_posts' => 1,
             'orderby' => 'rand',
             'post__not_in' => array($post->ID),
-            'posts_per_page' => 2
+            'posts_per_page' => 3
         );
         // Related by categories
         if (get_theme_mod('related-posts') == 'categories') {

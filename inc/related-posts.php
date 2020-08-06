@@ -12,7 +12,7 @@ $cat_url = get_category_link($cat_id)
         <div class="row read-next-feed">
 
 
-            <div class="col-lg px-0 px-sm-3 d-flex min-h-300 post-read-more-item">
+            <div class="col-md-6 px-0 px-sm-2 px-xl-3 d-flex min-h-300 post-read-more-item">
                 <article class="read-next-card"
                          style="background-image: url(https://pic.migchar.com/bg/bg-math.jpg)">
                     <header class="read-next-card-header">
@@ -44,7 +44,7 @@ $cat_url = get_category_link($cat_id)
 
             <?php while ($related_tag->have_posts()) : $related_tag->the_post(); ?>
 
-                <div class="col-lg px-0 px-sm-3 d-flex min-h-300 post-read-more-item">
+                <div class="col-md-6 px-0 px-sm-2 px-xl-3 d-flex min-h-300 post-read-more-item">
                     <article id="post-<?php the_ID(); ?>" class="post-read-next">
                         <a class="post-read-image-link post-read-next-image-link" href="<?php the_permalink(); ?>">
                             <?php if (has_post_thumbnail()): ?>

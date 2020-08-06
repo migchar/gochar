@@ -545,6 +545,7 @@ body.boxed { background: #eee; }
 /* ------------------------------------ */
 .sidebar { position: relative; z-index: 2; }
 .sidebar .pad { padding-left: 20px; padding-right: 20px; }
+.sidebar ul { font-size: 1rem }
 
 /* sidebar primary */
 .s1 { width: 300px; z-index: 2; }
@@ -1153,7 +1154,7 @@ svg:not(:root) {
 
 /*  single : author bio
 /* ------------------------------------ */
-.author-bio { background: #ECECEC; padding: 0 20px 20px; border-radius: 10px; position: relative; color: #777; margin: 40px 0; text-align: center; }
+.author-bio { background: #E9E9E3; padding: 0 20px 20px; border-radius: 10px; position: relative; color: #777; margin: 40px 0; text-align: center; }
 .author-bio .bio-avatar { width: 64px; height: auto; position: relative; display: inline-block; margin-top: -32px; }
 /*.author-bio .bio-avatar:after { background: #333; position: absolute; right: 0; bottom: 0; padding: 4px 4px; content: "\f303"; color: #fff; font-size: 10px; line-height: 12px; width: 12px; font-style: normal; font-family: "Font Awesome 5 Free"; font-weight: 900; text-align: center; border-radius: 100%; }*/
 .author-bio .bio-avatar img { display: block; width: 100%; height: auto; border-radius: 100%; }
@@ -1166,7 +1167,7 @@ svg:not(:root) {
 
 /*  single : post-nav
 /* ------------------------------------ */
-.post-nav { background: #ECECEC; border-radius: 10px; margin-bottom: 40px; }
+.post-nav { background: #E9E9E3; border-radius: 10px; margin-bottom: 40px; }
 .post-nav li { width: 50%; display: inline; float: left; }
 .post-nav li a { position: relative; display: block; padding-top: 10px; padding-bottom: 10px; }
 .post-nav li svg { color: #ccc; font-size: 18px; position: absolute; top: 50%; margin-top: -10px; }
@@ -1216,7 +1217,8 @@ svg:not(:root) {
 .widget select { border: 1px solid #ddd; color: #777; font-size: 15px; padding: 7px; width: 100%; max-width: 100%; }
 .widget label.screen-reader-text { display: none; }
 
-.sidebar .widget { background: #fff; box-shadow: 0 0 10px rgba(0,0,0,0.05); padding: 2rem; margin-bottom: 1em }
+.home .sidebar .widget { background: #fff }
+.sidebar .widget { background: #E9E9E3; box-shadow: 0 0 10px rgba(0,0,0,0.05); padding: 2rem; margin-bottom: 1em }
 .col-2cl .sidebar .widget { border-radius: 10px 0 0 10px; border-right: 0; }
 .col-2cr .sidebar .widget { border-radius: 0 10px 10px 0; border-left: 0; }
 
@@ -2531,10 +2533,6 @@ li #reply-title { font-size: 0; margin: 0!important; padding: 0; height: 0; bord
 .flex-column {
 	-ms-flex-direction: column!important;
 	flex-direction: column!important;
-}
-.d-flex {
-	display: -ms-flexbox!important;
-	display: flex!important;
 }
 
 /* ------------------------------------------------------------------------- *
